@@ -5,8 +5,7 @@ The world is going through a revolution in art (DALL-E, MidJourney, Imagine, etc
 
 
 ## Word Embedding
-In word embeddings approach individual words are represented as real-valued vectors in a predefined vector space. Word embeddings provides a way to use an efficient, dense representation in which similar words have a similar encoding. They are not computed manually, and weights are learned by the model during training, in the same way a model learns weights for a dense layer. ![image](https://user-images.githubusercontent.com/66441805/190224487-5d03b9e7-bd20-49b6-be7e-454d98138d24.png)
-
+In word embeddings approach individual words are represented as real-valued vectors in a predefined vector space. Word embeddings provides a way to use an efficient, dense representation in which similar words have a similar encoding. They are not computed manually, and weights are learned by the model during training, in the same way a model learns weights for a dense layer.
 
 ## Seq2Seq
 ## Attension Mechanism
