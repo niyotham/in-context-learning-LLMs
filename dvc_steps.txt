@@ -1,0 +1,15 @@
+git init 
+dvc init 
+git status
+git commit -m 'initialize repo'
+dvc remote add -d dvc-remote /tmp/dvc-storage
+dvc add data/*.json
+ls -ls data
+cat data/news.xlsx.dvc
+git commit -m 'data: track' 
+git tag -a 'v1'
+dvc push 
+ls -lR /tmp/dvc-storage
+rm -rf  data/news.xlsx # remove unwanted data 
+ls -l .dvc/cache # remove unwanted data  if still exixting in cache
+rm -rf .dvc/cashe .dvc/cashe
