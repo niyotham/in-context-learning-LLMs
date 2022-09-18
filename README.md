@@ -32,8 +32,8 @@ The preprocessing and model training is at the following folder [Notebook](https
       model='medium',  
       inputs=[text], # the string to be classified
       examples=examples # a couple of examples - training set
-  )  ```
-
+  ) 
+```
 ## Streamlit Dashboard 
 ## frontend 
 ## Flask API backend
