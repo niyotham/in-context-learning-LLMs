@@ -35,8 +35,8 @@ The preprocessing and model training is at the following folder [Notebook](https
   ) 
 ```
 ## Streamlit Dashboard 
-## frontend 
-## Flask API backend
+## Frontend 
+### Flask API backend
 
 ## Author
 @Niyomukiza
