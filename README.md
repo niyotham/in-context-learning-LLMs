@@ -3,7 +3,7 @@ The world is going through a revolution in art (DALL-E, MidJourney, Imagine, etc
 
  It is predictedd that  more organizations are going to start centering their businesses on LLMs and similar products such as DALL-E 2, MidJourney, Bloom, etc. Therefore,specialized people in prompt engineering demand will grow fast. It is time to start getting familiar with these technologies. 
 
-# concepts to understand when using LLMs
+# Concepts to understand when using LLMs
 ## Word Embedding
 In word embeddings approach individual words are represented as real-valued vectors in a predefined vector space. Word embeddings provides a way to use an efficient, dense representation in which similar words have a similar encoding. They are not computed manually, and weights are learned by the model during training, in the same way a model learns weights for a dense layer.
 
