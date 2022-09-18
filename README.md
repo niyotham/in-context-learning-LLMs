@@ -19,6 +19,17 @@ A transformer is a deep learning model that is self-sufficient and evaluates its
 
 ##  Named entity recognition using the cohere
 The preprocessing and model training is at the following folder [Notebook](https://github.com/niyotham/in-context-learning-LLMs/tree/main/notebooks)
+`how to connect to Cohere API.`
+
+``` import cohere
+co = cohere.Client(api_key)
+```
 
 ## News scoring using the LLMS
 The preprocessing and model training is at the following folder [Notebook](https://github.com/niyotham/in-context-learning-LLMs/tree/main/notebooks)
+
+``` co.classify(
+      model='medium',  
+      inputs=[text], # the string to be classified
+      examples=examples # a couple of examples - training set
+  )  ```
