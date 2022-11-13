@@ -3,6 +3,7 @@ dvc init
 git status
 git commit -m 'initialize repo'
 dvc remote add -d dvc-remote /tmp/dvc-storage
+git commit .dvc/config -m  'configure remote storage'
 dvc add data/*.json
 ls -ls data
 cat data/news.xlsx.dvc
