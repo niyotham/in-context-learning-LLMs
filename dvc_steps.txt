@@ -14,4 +14,5 @@ dvc push
 ls -lR /tmp/dvc-storage
 rm -rf  data/news.xlsx # remove unwanted data 
 ls -l .dvc/cache # remove unwanted data  if still exixting in cache
-rm -rf .dvc/cashe .dvc/cashe
+rm -rf .dvc/cashe 
+dvc pull # if we want the data back on our local machine.
